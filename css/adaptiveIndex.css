@@ -1,0 +1,126 @@
+@media screen and (max-width: 1200px) {
+  
+  .home-title-container {
+    font-size: 2.5rem;
+  }
+
+  .sub-home-title {
+    font-size: 1.5rem;
+  } 
+
+  .section {
+    font-size: 1.5rem;
+  }
+
+  .section-title {
+    font-size: 2.5rem;
+  }
+
+  .services-card {
+    font-size: 1.2rem;
+  }
+
+  .parther-img {
+    width: 250px;
+  }
+
+}
+
+@media screen and (max-width: 1000px) {
+
+  .burger-menu__nav-list {
+    font-size: 1rem;
+  }
+
+  .home-section {
+    height: 100vh;
+  }
+
+  .home-title-container {
+    font-size: 2rem;
+  }
+
+  .sub-home-title {
+    font-size: 1.2rem;
+  }
+  
+  /* .homeSwiper .swiper-slide {
+    margin-top: var(--headerHeight);
+  } */
+
+  .swiper-slide img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .swiper-slider__img-partner {
+    height: 300px !important;
+  }
+
+}
+
+@media screen and (max-width: 600px) {
+
+  .burger-menu.menu-open {
+    width: 30%;
+  }
+
+  .section-title {
+    font-size: 2rem;
+    margin-bottom: 25px;
+  }
+
+  .center-title {
+    text-align: center;
+  }
+
+  .news-block {
+    width: 100%;
+  }
+
+  .news-img {
+    max-width: 100%;
+  }
+
+  .parther-img {
+    width: 150px;
+  }
+
+  @keyframes openBurgerMenu {
+    from {
+      margin-right: -45%;
+    }
+    to {
+      margin-right: 0%;
+    }
+  }
+
+}
+
+@media screen and (max-width: 450px) {
+
+  .burger-menu.menu-open {
+    width: 35%;
+  }
+  
+  .home-title-container {
+    font-size: 1.2rem;
+  }
+
+  .sub-home-title {
+    font-size: 1rem;
+  }
+
+  .section {
+    font-size: 1.2rem;
+  }
+
+  .swiper-slider__img-partner {
+    height: 200px !important;
+  }
+
+  .footer-titel {
+    text-align: center;
+  }
+
+}

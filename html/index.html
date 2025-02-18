@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+  <link rel="stylesheet" href="../css/main.css">
+  <link rel="stylesheet" href="../css/adaptiveIndex.css">
+
+  <title>Сириус || Главная</title>
+</head>
+<body class="body">
+
+  <div class="burger-menu menu-closed">
+    <div class="burger-menu__closed-button" onclick="closedBurgerMenu()"></div>
+    <nav class="burger-menu__nav">
+      <ul class="burger-menu__nav-list">
+        <li><a href="#about" class="burger-menu__nav-item" onclick="navItem()">О нас</a></li>
+        <li><a href="#services" class="burger-menu__nav-item" onclick="navItem()">Сервис</a></li>
+        <li><a href="contact.html" class="burger-menu__nav-item" onclick="navItem()">Контакты</a></li>
+      </ul>
+    </nav>
+  </div>
+
+  <header class="header">
+    <div class="burger-button" onclick="openBurgerMenu()">
+      <span class="burger-button__span"></span>
+    </div>
+  </header>
+
+  <main class="main">
+
+    <section class="section home-section">
+      <div class="swiper homeSwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide"><img src="../img/slider/fon1.jpg" alt="город в закате" class="swiper-slider__img"></div>
+          <div class="swiper-slide"><img src="../img/slider/fon2.jpg" alt="город в закате" class="swiper-slider__img"></div>
+          <div class="swiper-slide"><img src="../img/slider/fon3.jpg" alt="город в закате" class="swiper-slider__img"></div>
+        </div>
+      </div>
+      <div class="home-title-container">
+        <h1 class="home-title">Сириус</h1>
+        <p class="sub-home-title">Все, что может быть интересно состоятельному человеку и его семье</p>
+      </div>
+    </section>
+
+    <section class="section about-section" id="about">
+      <h2 class="section-title">Сириус</h2>
+      <p class="about-text">
+        <span class="text-bold">Компания СИРИУС</span> оказывает сервис по поиску недвижимости по всему миру, содействует в получении второго гражданства, юридическом и налоговом сопровождении, а также в решении других сопутствующих вопросов. 
+        <br>
+        <br>
+        Наша компания основана для поиска наилучшего предложения среди многочисленных вариантов. Долгосрочное сотрудничество является приоритетным для нашей компании.
+        <br>
+        <br>
+        Компания СИРИУС с участием партнеров оказывает комплексное сопровождение комфортной жизни всех членов Вашей семьи.
+      </p>
+      <h2 class="section-title">Почему мы?</h2>
+      <p class="about-text">
+        Мы всегда стремимся сделать Ваше обслуживание максимально комфортным, поэтому дополнительно предлагаем воспользоваться нашим сервисом, который включает в себя широкий спектр сервисов и услуг.
+      </p>
+    </section>
+
+    <section class="section services-section" id="services">
+      <h2 class="section-title services-title">Наши услуги</h2>
+      <div class="services-container">
+
+          <div class="services-card">
+            <img src="../img/services/1.png" alt="иконка" class="services-img" width="125px" height="125px">
+            <h3 class="services-title">Получение второго гражданства, ПМЖ, ВНЖ</h3>
+          </div>
+          
+          <div class="services-card">
+            <img src="../img/services/2.png" alt="иконка" class="services-img" width="125px" height="125px">
+            <h3 class="services-title">Юридическое и налоговое сопровождение</h3>
+          </div>
+  
+          <div class="services-card">
+            <img src="../img/services/3.png" alt="иконка" class="services-img" width="125px" height="125px">
+            <h3 class="services-title">Регистрация компаний и открытие счета за рубежом</h3>
+          </div>
+  
+          <div class="services-card">
+            <img src="../img/services/4.png" alt="иконка" class="services-img" width="125px" height="125px">
+            <h3 class="services-title">Lifestyle сервис</h3>
+          </div>
+  
+          <div class="services-card">
+            <img src="../img/services/5.png" alt="иконка" class="services-img" width="125px" height="150px">
+            <h3 class="services-title">Подбор и помощь в поступлении в вузы США и Европы</h3>
+          </div>
+  
+          <div class="services-card">
+            <img src="../img/services/6.png" alt="иконка" class="services-img" width="125px" height="125px">
+            <h3 class="services-title">Организация лечения в лучших мировых клиниках</h3>
+          </div>
+  
+          <div class="services-card">
+            <img src="../img/services/7.png" alt="иконка" class="services-img" width="125px" height="125px">
+            <h3 class="services-title">Генеалогическое исследование</h3>
+          </div>
+  
+          <div class="services-card">
+            <img src="../img/services/8.png" alt="иконка" class="services-img" width="125px" height="125px">
+            <h3 class="services-title">Создание частных винных коллекций</h3>
+          </div>
+
+      </div>
+
+    </section>
+
+    <section class="section news-section">
+      <h2 class="section-title center-title">Новости партнёров</h2>
+      <div class="news-container">
+
+        <div class="news-block">
+          <img src="../img/news/tyrcey.jpg" alt="новости" class="news-img">
+        </div>
+
+        <div class="news-block">
+          <img src="../img/news/kipr.jpg" alt="новости" class="news-img">
+        </div>
+
+        <div class="news-block">
+          <h3 class="news-title">Дайджест зарубежной недвижимости и иммиграционных программ</h3>
+          <data class="news-date">Февраль 2025</data>
+          <a href="../files/Дайджест_зарубежной_недвижимости_Февраль_2025.pdf" target="_blank" class="news-link">Подробнее</a>
+        </div>
+
+        <div class="news-block">
+          <h3 class="news-title">Эксклюзивные предложения</h3>
+          <data class="news-date">Февраль 2025</data>
+          <a href="../files/Дайджест_Эксклюзивные_предложения_Февраль_2025.pdf" target="_blank" class="news-link">Подробнее</a>
+        </div>
+
+      </div>
+    </section>
+
+    <section class="section offers-section">
+      <h2 class="section-title">Наши предложения</h2>
+      <p class="about-text">
+        Состоятельным клиентам предоставляется
+        широкий спектр услуг для комфортной жизни, в
+        том числе в области управления личным
+        капиталом, нацеленный на его сохранение и
+        приумножение, на базе платформы иностранных
+        партнеров.
+      </p>
+    </section>
+
+    <section class="section principles-section">
+      <h2 class="section-title">Наши принципы</h2>
+      <p class="about-text">
+        Наша компания основана на принципах
+        долгосрочного сотрудничества. Понимание
+        Ваших приоритетов и личных целей является
+        нашей ключевой задачей.
+      </p>
+    </section>
+
+    <section class="section request-section">
+      <h2 class="section-title">Популярность запросов Клиентов</h2>
+      <div class="request-content-container">
+
+        <div class="request">
+          <h3 class="request-title">ВТОРОЕ ГРАЖДАНСТВО, ПМЖ, ВНЖ</h3>
+          <p class="request-percent percent98">98%</p>
+        </div>
+
+        <div class="request">
+          <h3 class="request-title">ЮРИДИЧЕСКОЕ КОНСУЛЬТИРОВАНИЕ</h3>
+          <p class="request-percent percent75">75%</p>
+        </div>
+
+        <div class="request">
+          <h3 class="request-title">ЗАБОТА О ЗДОРОВЬЕ КЛИЕНТА</h3>
+          <p class="request-percent percent47">47%</p>
+        </div>
+
+        <div class="request">
+          <h3 class="request-title">КОНСЬЕРЖ СЕРВИС</h3>
+          <p class="request-percent percent28">28%</p>
+        </div>
+
+      </div>
+    </section>
+
+    <section class="section parther-section">
+      <h2 class="section-title partner-title">Наши партнёры</h2>
+      <div class="swiper partnerSwiper">
+        <div class="swiper-wrapper swiper-wrapper-partner">
+          <div class="swiper-slide"><img src="../img/partners/1.jpg" alt="партнер" class="swiper-slider__img-partner swiper-slider__img" height="100px"></div>
+          <div class="swiper-slide"><img src="../img/partners/2.jpg" alt="партнер" class="swiper-slider__img-partner swiper-slider__img" height="100px"></div>
+          <div class="swiper-slide"><img src="../img/partners/3.jpg" alt="партнер" class="swiper-slider__img-partner swiper-slider__img" height="100px"></div>
+          <div class="swiper-slide"><img src="../img/partners/4.jpg" alt="партнер" class="swiper-slider__img-partner swiper-slider__img" height="100px"></div>
+          <!-- <div class="swiper-slide"><img src="../img/partners/5.jpg" alt="партнер" class="swiper-slider__img-partner swiper-slider__img" height="100px"></div> -->
+          <div class="swiper-slide"><img src="../img/partners/6.jpg" alt="партнер" class="swiper-slider__img-partner swiper-slider__img" height="100px"></div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+  
+  <footer class="footer">
+    <h3 class="footer-titel">Copyright © 2025 Компания СИРИУС</h3>
+  </footer>
+  
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="../js/main.js"></script>
+  <script src="../js/burger.js"></script>
+</body>
+</html>
